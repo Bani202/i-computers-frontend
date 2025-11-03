@@ -1,9 +1,9 @@
-export default function ProdctCard(){
+export default function ProdctCard(props){
     return(
          <div>
-            <h1>Laptop</h1>
-            <img src="https://picsum.photos/id/1/200/300" alt="" />
-            <p>price : 100,000LKR</p>
+            <h1>{props.name}</h1>
+            <img src={props.img}/>
+            <p>Price LKR:{props.Price}</p>
       </div>
     );
 }
