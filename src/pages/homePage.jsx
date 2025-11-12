@@ -1,7 +1,12 @@
+import Header from "../componants/header";
+
 export default function HomePage(){
     return(
-        <div className="w-full h-full">
-            <Headers/>
+        <div>
+            <Header/>
+            <div className="w-full h-[calc(100%-100px)] bg-red-700">
+
+            </div>
 
         </div>
     )
